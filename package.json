@@ -2,7 +2,7 @@
   "name": "trelloapp-vue-vite-ts",
   "version": "1.0.0",
   "scripts": {
-    "start": "vite",
+    "start": "vite --host",
     "lint": "prettier --write \"src/**/*.{ts,vue,js}\" && eslint \"**/*.{ts,vue,js}\" --fix && echo \"✅ All files passed linting!\"",
     "typecheck": "tsc --noEmit -p . && vue-tsc --noEmit && echo \"✅ All file types passed!\"",
     "selectorcheck": "./scripts/getSelectors.sh",
